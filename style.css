@@ -1,0 +1,117 @@
+/* Genel Ayarlar */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f6f2ec;
+  color: #4a3c31;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 700px;
+  background-color: #fffef9;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(74, 60, 49, 0.15);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #7d6741;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+
+.title {
+  font-size: 1.3rem;
+  color: #a78c57;
+  margin-top: 6px;
+  font-style: italic;
+}
+
+.email {
+  color: #7d6741;
+  margin-top: 4px;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+}
+
+/* Bölümler */
+section {
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.7rem;
+  border-bottom: 2px solid #a78c57;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px dotted #a78c57;
+  font-size: 1.1rem;
+}
+
+/* Son madde için alt çizgi kaldır */
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Paragraf */
+p {
+  font-size: 1.15rem;
+  max-width: 90%;
+  margin: 0 auto;
+  color: #5c5040;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #9b8e75;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    margin: 20px 15px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}
