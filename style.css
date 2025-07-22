@@ -115,3 +115,40 @@ footer {
     height: 100px;
   }
 }
+
+.experience {
+  margin-top: 2rem;
+}
+
+.experience h2 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  color: #5a4631; /* hafif kahverengimsi vintage renk */
+  border-bottom: 2px solid #a1887f;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.experience ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.experience li {
+  margin-bottom: 1.2rem;
+  font-family: 'Georgia', serif;
+  line-height: 1.5;
+  color: #3a2e1a;
+}
+
+.experience strong {
+  font-size: 1.1rem;
+}
+
+.experience em {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #7a6a58;
+}
+
+
